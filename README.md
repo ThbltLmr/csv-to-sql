@@ -19,4 +19,5 @@ cargo run input_file.csv output_file.sql table_name
 ## TODO
 - Add flags to switch between update and insert
 - Add insert mode
+- Add option to have DB config and run output file automatically
 - Add upsert mode, updating if id exists and inserting if it does not
