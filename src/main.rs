@@ -27,7 +27,7 @@ fn main() {
     let mut new_line: String = format!("UPDATE {table_name} SET");
     let values = line.split(",").collect::<Vec<&str>>();
 
-    for i in 0..values.len() {
+    for i in 1..values.len() {
       new_line = format!("{} \"{}\" = '{}'", new_line, headers[i], values[i]);
       if i < values.len() - 1 {
         new_line = format!("{},", new_line);
