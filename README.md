@@ -5,7 +5,6 @@ A CLI tool to parse a CSV file and generate a SQL file to update / insert rows
 
 ## USAGE
 ```
-// requires having cargo installed
 cargo run input_file.csv output_file.sql table_name
 ```
 
